@@ -1,0 +1,15 @@
+data/*
+.idea/*
+venv/
+raw_data/*
+processed_images/*
+!models/.gitkeep
+__pycache__/*
+coco_eval.py
+coco_utils.py
+create_mask.py
+engine.py
+transforms.py
+utils.py
+train_fasterrcnn.py
+train_maskrcnn.py
