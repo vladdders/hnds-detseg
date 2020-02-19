@@ -7,7 +7,21 @@ For now, everything is based on this PyTorch [tutorial](https://pytorch.org/tuto
 
 ```shell script
 pip install -r requirement.txt
-
-python test_fasterrcnn_model.py webcam # to test the frcnn model using webcam
-python test_maskrrcnn_model.py webcam # to test the mrcnn model using webcam
 ```
+
+<h2> Faster-RCNN</h2>
+
+```shell script
+python test_fasterrcnn_model.py webcam 
+```
+![](recordings/frcnn.png)
+
+<h2> Mask-RCNN</h2>
+
+```shell script
+python test_maskrrcnn_model.py webcam
+```
+
+![](recordings/mrcnn.png)
+
+Also, see the `recordings` videos as well.
